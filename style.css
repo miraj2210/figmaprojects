@@ -32,6 +32,11 @@
         padding: 20px 0px;
         align-items: center;
     }
+    .header-text img{
+        width: 16px;
+        height:18px;
+        color: #619111;
+    }
 
     header button {
         width: 85px;
