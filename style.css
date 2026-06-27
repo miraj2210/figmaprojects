@@ -1,11 +1,272 @@
 @media screen and (max-width: 376px) {
-
+    
     * {
-        padding: 0%;
         margin: 0%;
+        padding: 0%;
         box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
+    header {
+        background-color: #2c3602;
+        width: 100%px;
+        height: 486px;
+    }
+
+    .main-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    header p {
+        color: #619111;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .header-text {
+        display: flex;
+        gap: 20px;
+        padding: 20px 0px;
+        align-items: center;
+    }
+
+    header button {
+        width: 85px;
+        height: 34px;
+        background-color: #D2FD9C;
+        border: none;
+        margin-right: 10px;
+    }
+
+    .main-div {
+        display: flex;
+        margin-left: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        gap: 5px;
+    }
+
+    .header-maindiv1 {
+        text-align: left;
+        color: white;
+        margin-left: 20px;
+    }
+
+    .text-main1 {
+        color: white;
+        margin-left: 25px;
+
+    }
+
+    .text-main2 {
+        color: #D2FD9C;
+    }
+
+    .text-pera1 {
+        text-align: left;
+        padding: 23px;
+        color: #CBCBCB;
+        font-size: 16px;
+    }
+
+    .header-pera2 {
+        text-align: left;
+        padding: 15px 22px;
+        font-size: 12px;
+    }
+
+    .header-card1 {
+        background-color: #67a206;
+        width: 86.67px;
+        height: 120px;
+        padding-top: 10px;
+
+    }
+
+    .header-maincard {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .header-card-pera1 {
+        color: black;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .header-card-pera2 {
+        color: black;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .header-links {
+        text-align: left;
+        margin-top: 20px;
+
+    }
+
+    .header-links a {
+        color: #D2FD9C;
+        text-decoration: none;
+        margin: 5px;
+
+    }
+
+    .blog-hedding {
+        margin-top: 10px;
+        text-align: center;
+
+
+    }
+
+    .blog-pere1 {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .blog-pere2 {
+        font-size: 12px;
+        margin-left: 70px;
+        text-align: left;
+    }
+
+    .blog-allcard {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 50px;
+
+
+    }
+
+    .blog-card1 {
+
+        height: 104px;
+        width: 140px;
+        border-radius: 10px;
+    }
+
+    .blog-pera {
+        margin-top: 20px;
+    }
+
+    .allpage-3 {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .page-divimage {
+        margin-top: 40px;
+    }
+
+    .page-pere-first {
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    .page-pere-second {
+        text-align: left;
+        padding: 15px;
+        color: #5D5D5D;
+        font-size: 12px;
+        margin-left: 5px;
+    }
+
+    .only-image {
+        text-align: center;
+        margin: 30px 0px;
+    }
+
+    .containt-image {
+        width: 375px;
+        height: 450px;
+        background-image: url("./girl.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: left;
+        margin-top: 35px;
+
+    }
+
+    .containt-pere {
+        color: #D9D9D9;
+        padding-top: 300PX;
+        padding-left: 20px;
+
+    }
+
+    .containt-btn button {
+        background-color: #D2FD9C;
+        border: none;
+        padding: 11px 14px;
+        margin-left: 10px;
+        margin-top: 15px;
+
+    }
+
+    footer {
+        background-color: #EDEDED;
+        margin-top: 80px;
+        width: 375px;
+        height: 300px;
+
+
+    }
+
+    .footer-allcard {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: left;
+
+
+    }
+
+    .footer-card1 {
+
+        width: 40%;
+        height: 238px;
+        margin-top: 30px;
+    }
+
+    .footer-heding {
+        text-align: left;
+        margin-top: 100px;
+
+
+    }
+
+    .footer-content1 {
+        font-size: 12px;
+        color: #5D5D5D;
+    }
+
+    .footercard1-content1 {
+        font-size: 12px;
+
+    }
+
+    .footercontent-last {
+        margin-top: 95px;
+        font-size: 12px;
+        color: #5D5D5D;
+    }
+
+    .footercard1-content1 p {
+        padding-top: 5px;
+    }
+
+
+    /* this is miraj css */
     .seconddiv {
         width: 100%;
         height: 100%;
